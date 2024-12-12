@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    color: rgb(253, 255, 156);
+    /* border: 1px solid brown; */
+
+}
+
+html {
+
+    background-image: url(keith-misner.jpg);
+    background-color: rgb(75, 37, 13);
+
+}
+
+:root {
+
+    --BORDER-COLOR: rgb(212, 163, 89);
+
+    --SHADOW-COLOR: rgb(117, 90, 0);
+}
+
+
+/* .menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+} */
+
+.table_ {
+
+    box-shadow: 5px 5px 5px rgb(0, 54, 0);
+    border: solid 1px rgb(0, 54, 0);
+    margin: 1rem;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+   
+
+}
+
+/* div {
+    padding: 10px;
+    margin: 5px;
+} */
+
+h1 {
+    padding: 2rem;
+    border-bottom: 7px dashed var(--BORDER-COLOR);
+    border-left: 5px dashed var(--BORDER-COLOR);
+    border-top: 3px dashed var(--BORDER-COLOR);
+    border-right: 5px dashed var(--BORDER-COLOR);
+    border-radius: 50%;
+    box-shadow: 0px 10px 5px var(--BORDER-COLOR);
+}
+
+h2, header {
+    padding: 2.05rem;
+}
+
+
+
+span {
+    font-size: 20px;
+}
+
+.price {
+
+    text-align: center;
+
+    
+}
+
+td {
+
+    border-bottom: dotted 2px lightgreen;
+    padding-bottom: 5px;
+    border-right: dotted 2px lightgreen;
+}
+
+.td_num {
+    border-right: none;
+}
+
+tfoot{
+    text-align: center;
+}
